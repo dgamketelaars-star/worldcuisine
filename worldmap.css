@@ -100,3 +100,22 @@ body {
 #terugKnop:hover {
     background-color: #4A769C;
 }
+
+@media (max-width: 800px) {
+    .content-layout {
+        flex-direction: column;
+        width: 95%;
+        gap: 16px;
+    }
+
+    .wereldkaart,
+    .sidebar {
+        flex: 1 1 auto;
+        width: 100%;
+    }
+
+    .regio-info {
+        max-width: 100%;
+        height: auto;
+    }
+}
